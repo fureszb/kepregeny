@@ -35,6 +35,7 @@ header img{
 }
 nav li{
     list-style: none;
+    text-align: right;
 }
 nav a{
     color: black;
