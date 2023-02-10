@@ -33,15 +33,21 @@ header img{
     padding: 10px;
     border-bottom: 2px solid black;
 }
+nav ul{
+    padding: 0;
+}
 nav li{
     list-style: none;
-    text-align: right;
+    font-weight: bold;
 }
 nav a{
     color: black;
-    text-decoration: none;
+    text-decoration: ;
 }
 section{
+    width: 100%;
+}
+section img{
     width: 100%;
 }
 article
@@ -54,4 +60,11 @@ article
 footer{
     text-align: center;
     background-color: #e09900;
+}
+
+@media screen and (max-width: 600px) {
+    .menu{
+        flex-direction: column;
+        height: fit-content;
+    }
 }
