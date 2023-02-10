@@ -1,0 +1,10 @@
+header img{
+    background-image: url("");
+    background-size: cover;
+    background-position: center top;
+    bottom: 0;
+    height: 100px;
+    z-index: 1;
+    width: 100%;
+    
+}
