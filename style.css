@@ -7,8 +7,12 @@ main{
     flex-direction: column;
     padding: 10px;
 }
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: #f7ead7;
+    font-family: 'Varela Round', sans-serif;
 }
 
 header img{
@@ -43,4 +47,8 @@ article
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+footer{
+    text-align: center;
+    background-color: #e09900;
 }
