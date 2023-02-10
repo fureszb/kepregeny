@@ -2,8 +2,11 @@ main{
     margin: auto;
     width: 90%;
     max-width: 900px;
+    background-color: white;
+}
+
+body{
     background-color: #f7ead7;
-    
 }
 
 header img{
@@ -18,7 +21,7 @@ header img{
     display: flex;
     justify-content: space-between;
     height: 120px;
-    background-color: azure;
+    background-color: white;
     align-items: center;
     padding: 10px;
 }
