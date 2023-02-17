@@ -33,6 +33,18 @@ header img{
     padding: 10px;
     border-bottom: 2px solid black;
 }
+.storybox>div>img{
+    width: 100%;
+}
+.storybox> div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+    
+}
 nav ul{
     padding: 0;
 }
@@ -42,7 +54,7 @@ nav li{
 }
 nav a{
     color: black;
-    text-decoration: line;
+    text-decoration: overline;
 }
 section{
     width: 100%;
@@ -61,10 +73,15 @@ footer{
     text-align: center;
     background-color: #e09900;
 }
-
+article>img{
+    width: 50%;
+}
 @media screen and (max-width: 600px) {
     .menu{
         flex-direction: column;
         height: fit-content;
+    }
+    .storybox>div>img{
+        width: 35%;
     }
 }
